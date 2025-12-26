@@ -1,0 +1,13 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+    .list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}

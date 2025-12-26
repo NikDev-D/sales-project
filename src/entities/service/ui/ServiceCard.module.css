@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /*background-color: #16A34A;*/
+
+}
+.meal {
+    background-color: #fff7ed;
+    border-left: 4px solid #f59e0b;
+}
+
+.baggage {
+    background-color: #eff6ff;
+    border-left: 4px solid #2563eb;
+}
+
+.seat {
+    background-color: #ecfdf5;
+    border-left: 4px solid #16a34a;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 14px;
+    color: #374151;
+}
+
+.actions {
+    margin-top: 8px;
+}
